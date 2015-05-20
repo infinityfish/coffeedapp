@@ -109,6 +109,9 @@ STATIC_URL = '/static/'
 
 # adding static files
 STATICFILES_DIRS = (
+ os.path.join(BASE_DIR, 'templates'),
+ )
+TEMPLATE_DIRS = (
  os.path.join(BASE_DIR, 'static'),
  )
 
